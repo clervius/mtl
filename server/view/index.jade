@@ -1,7 +1,7 @@
 doctype
 html
 	head
-		title More Tax Leads!
+		title #{ Pagetitle }
 		include includes/head
 	body.product-page
 		include includes/fbSDK
@@ -11,8 +11,9 @@ html
 			.container
 				include home/homeRaised
 				include home/overview
-		include home/features
-				include home/getNow
-				include home/contact
+		include home/getNow
+		include home/features		
+		include home/pricing
+		include home/contact
 		include includes/footer
 		include includes/scripts

@@ -1,17 +1,11 @@
 .main.main-raised.main-product
-	.row
+	.row(id="overview")
 		.col-md-6.col-sm-6
-			p Here I will put a video
+			.embed-container(style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%")
+				iframe(src="https://www.youtube.com/embed/dp3NK7TMMzw", frameborder="0", allowfullscreen, style="position:absolute;top:0;left:0;width:100%;height:100%")
 		.col-md-6.col-sm-6
 			h2.title Subtitle Here
 			h3.main-price $350
-			.row
-				.col-md-4.col-sm-4
-					p Add picture of smiling girl here
-				.col-md-8.col-sm-8
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet finibus fermentum. Nulla tincidunt tincidunt orci non ornare. Suspendisse consequat erat nisl, 
-					hr
-					p consequat justo. Aliquam rutrum sit amet ligula a consectetur. Vestibulum id dolor consectetur lectus tincidunt cursus. Lorem ipsum dolor sit amet, consectetur
-			.row.text-right
-				button.btn.btn-round.btn-danger Sign Up&nbsp;&nbsp;
-					i.fa.fa-pencil
+			p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet finibus fermentum. Nulla tincidunt tincidunt orci non ornare.
+			button.btn.btn-danger Sign Up&nbsp;&nbsp;
+				i.fa.fa-pencil
