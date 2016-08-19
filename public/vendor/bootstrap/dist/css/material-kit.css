@@ -6268,14 +6268,14 @@ footer .pull-center {
   background-color: #eee;
 }
 .product-page .page-header {
-  height: 60vh;
+  height: 80vh;
   background-position: top center;
 }
 .product-page .page-header .container {
   padding-top: 18vh;
 }
 .product-page .main-raised {
-  margin: -10vh 0px 0px;
+  margin: -20vh 0px 0px;
   padding: 40px;
 }
 .product-page .title-row {
